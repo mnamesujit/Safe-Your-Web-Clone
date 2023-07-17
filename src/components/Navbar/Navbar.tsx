@@ -1,7 +1,7 @@
 import DesktopLayout from "./DesktopLayout";
 const Navbar = () => {
   return (
-    <div>
+    <div className="navbar">
       <DesktopLayout />
     </div>
   )
