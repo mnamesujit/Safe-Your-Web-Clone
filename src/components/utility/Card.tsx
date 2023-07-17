@@ -8,7 +8,6 @@ interface Props{
 const Card: React.FC<Props> = ({image, heading, title, content}) => {
   console.log("called and printing")
   return (
-    <>
       <div className="cards">
         <img src={image} alt="icon" />
         <div className="container">
@@ -17,7 +16,6 @@ const Card: React.FC<Props> = ({image, heading, title, content}) => {
           <p className="content">{content}</p>
         </div>
       </div>
-    </>
   );
 }
 

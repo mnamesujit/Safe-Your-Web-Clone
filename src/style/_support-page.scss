@@ -1,0 +1,40 @@
+#support-page {
+    >.container{
+        text-align: center;
+        >p{
+            color: $main-dark-2;
+            font-size: 1.25rem;
+        }
+        >h1{
+            color: $main-dark-1;
+        }
+    }
+    >.support-cards {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding: 4rem;
+    
+            >.card {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                width: 30%;
+                margin: auto;
+                padding: 1.2rem 1.4rem;
+                background-color: $main-1;
+                border-radius: 5px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    
+                img {
+                    width: 65px;
+                }
+    
+                .title {
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    color: $main-dark-2;
+                }
+            }
+        }
+}
