@@ -1,6 +1,6 @@
 
 import  services  from '../../constants/data';
-import Card from './Card';
+import Card from '../utility/Card';
 
 
 const Services= () => {
