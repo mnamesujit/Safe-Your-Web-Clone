@@ -1,0 +1,29 @@
+#about-page{
+    margin: 4rem auto;
+    >.cards{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 6rem 5rem;
+        background-color: $main-1;
+        >img{
+            height: 600px;
+            border-radius: 15px;
+        }
+        >.container{
+            >.heading {
+                font-size: 1.25rem;
+                color: $main-dark-2;
+            }
+            >.title {
+                    color: $main-dark-1;
+                    margin-top: 15px;
+                }
+            >.content {
+                line-height: 2rem;
+                font-size: 1.2rem;
+                color: $main-dark-2;
+            }
+        }
+    }
+}
