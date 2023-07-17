@@ -3,6 +3,8 @@ import two from '../assets/2.png';
 import three from '../assets/3.png';
 import four from '../assets/4.png';
 import aboutImage from '../assets/about.webp';
+import pen from '../assets/pen.webp';
+import sourceCode from '../assets/sourceCode.webp';
 
 const services = [
     {
@@ -36,5 +38,32 @@ const about = [
     }
 ]
 
+const support = [
+    {
+        image: one,
+        title: "Vulnerability Assessments"
+    },
+    {
+        image: pen,
+        title: "Penetration Testing"
+    },
+    {
+        image: three,
+        title: "Web Development"
+    },
+    {
+        image: two,
+        title: "Threat Detection"
+    },
+    {
+        image: one,
+        title: "Security Awareness Training"
+    },
+    {
+        image: sourceCode,
+        title: "Source Code Review"
+    },
+]
+
 export default services;
-export { about };
+export { about, support };
