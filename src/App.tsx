@@ -1,12 +1,12 @@
-
-import './App.css'
+import './App.scss'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1>Safe Your Web Clone Basic Setup</h1>
-    </>
+    <div className="main">
+      <Navbar />
+    </div>
   )
 }
 
