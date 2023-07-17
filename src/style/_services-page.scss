@@ -1,0 +1,26 @@
+#services-page{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 4.5rem auto;
+    >.cards{
+        width: 300px;
+        padding: 2rem 3rem;
+        background-color: $main-1;
+        border-radius: 10px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+        >img{
+            width: 90px;
+        }
+        >.services-title{
+            color: $main-dark-1;
+            margin-top: 15px;
+        }
+        >.services-content{
+            line-height: 2rem;
+            font-size: 1.25rem;
+            color: $main-dark-2;
+        }
+    }
+}
