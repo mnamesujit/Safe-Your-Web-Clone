@@ -1,0 +1,35 @@
+#company-info{
+    margin: 5em auto;
+    padding: 5em;
+    color: $main-dark-1;
+    background-color: $main-1;
+    >.header{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    >.content{
+        display: flex;
+        margin-top: 1rem;
+        padding: 2.5rem 0;
+        gap: 2rem;
+        align-items: center;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        >img{
+            width: 50%;
+        }
+        >.about-company{
+            padding-right: 1rem;
+            >p{
+                font-size: 1.1rem;
+                color: $main-dark-2;
+                margin: 20px 0;
+                line-height: 2rem;
+            }
+            >ul{
+                margin-left: 3rem;
+                // background-color: red;
+                line-height: 2rem;
+            }
+        }
+    }
+}
