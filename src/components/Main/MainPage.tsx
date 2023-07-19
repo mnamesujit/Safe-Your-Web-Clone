@@ -1,4 +1,5 @@
 import About from "../About/About"
+import CompanyInfo from "../CompanyInfo/CompanyInfo"
 import IconSupportPage from "../IcoSupportPage/IconSupportPage"
 import Services from "../Services/Services"
 import Stats from "../Stats/Stats"
@@ -15,6 +16,7 @@ const MainPage = () => {
       <Support />
       <Stats />
       <IconSupportPage />
+      <CompanyInfo />
       </>
   )
 }
