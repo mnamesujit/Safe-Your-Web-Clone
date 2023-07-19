@@ -65,5 +65,24 @@ const support = [
     },
 ]
 
+const stats = [
+    {
+        title: "Vulnerability Assessments",
+        score: 95
+    },
+    {
+        title: "Threat Detection",
+        score: 80
+    },
+    {
+        title: "Security Awareness Training",
+        score: 87
+    },
+    {
+        title: "Source Code Review",
+        score: 70
+    },
+]
+
 export default services;
-export { about, support };
+export { about, support,  stats };

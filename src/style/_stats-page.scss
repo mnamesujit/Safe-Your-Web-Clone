@@ -1,0 +1,42 @@
+#stats-page{
+    background-color: $white;
+    display: flex;
+    margin: 5em auto;
+    padding: 5em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    >.stats-content{
+        width: 50%;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        >.headlines{
+            color: $main-dark-1;
+            >.lead-text {
+                    font-size: 1.3rem;
+                    margin-bottom: 0.5rem;
+             }
+             >.description{
+                margin: 1.2rem 0;
+                font-size: 1.3rem;
+             }
+        }
+        >.card{
+            margin-top: 0.5rem;
+            >.statistics{
+                display: flex;
+                justify-content: space-between;
+                padding-right: 30px;
+                color: $main-dark-1;
+                font-size: 1.05rem;
+                margin: 0.8rem 0;
+            }
+        }
+    }
+    >.image-container {
+        >img {
+            max-width: 640px;
+            border-radius: 10px;
+        }
+    }
+}
