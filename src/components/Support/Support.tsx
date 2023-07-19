@@ -1,5 +1,5 @@
 import { support } from "../../constants/data";
-import Card from "./Card";
+import Card from "../utility/SupportCard";
 
 const Support = () => {
     return (
