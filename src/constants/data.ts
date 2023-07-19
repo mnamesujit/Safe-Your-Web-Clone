@@ -84,5 +84,20 @@ const stats = [
     },
 ]
 
+const faqData = [
+    {
+        question: "Will your security measures cause any disruption to our website or business operations?",
+        ans: "We strive to minimize disruption to your website and business operations as much as possible. Our expert tech team will carefully implement our security measures to ensure they do not cause any significant downtime or issues. However, in some cases, minor disruptions may be unavoidable, but we will work closely with you to minimize any potential impacts."
+    },
+    {
+        question: "What level of support can we expect if we have any security-related issues?",
+        ans: "our clients may want to know what kind of support they can expect if they encounter any security-related issues while using your services. This could include things like how quickly they can expect a response from your team, what methods of communication are available (e.g. phone, email, chat), and what steps your team will take to address the issue."
+    },
+    {
+        question: "Can you explain the process of how you will secure our website?",
+        ans: "We follow a thorough process to secure your website. First, we conduct a comprehensive assessment to identify potential vulnerabilities. Based on our findings, we develop a customized security plan that addresses your specific needs. Our team then implements the plan, which may include measures such as encryption, firewalls, and malware protection."
+    },
+]
+
 export default services;
-export { about, support,  stats };
+export { about, support,  stats, faqData };
