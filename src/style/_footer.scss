@@ -1,0 +1,78 @@
+#footer-page{
+    background-color: $main-10;
+    color: $main-0;
+    padding: 2.5rem 0 2rem;
+    a{
+        text-decoration: underline;
+    }
+    >.container{
+        display: flex;
+        margin: 0 4.5rem;
+        >.social{
+            width: 35%;
+            >.logo{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                >img{
+                    width: 45px;
+                }
+            }
+            >p{
+                margin: 1rem 0;
+                font-size: 1.15rem;
+            }
+            >.social-links{
+                >.items{
+                    display: flex;
+                    margin-top: 0.5rem;
+                    font-size: 1rem;
+                    gap: 10px;
+                    i{
+                        display: flex;
+                        font-size: 1.4rem;
+                        align-items: center;
+                    }
+                 }
+            }
+        }
+        >.company{
+            width: 30%;
+            >h2{
+                margin-bottom: 1.5rem;
+            }
+            >p{
+                margin: 1rem 0;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+            }
+        }
+        >.about{
+            width: 25%;
+            h2{
+                margin-bottom: 1.5rem;
+            }
+            >.item{
+                display: flex;
+                margin-top: 0.8rem;
+                font-size: 1.1rem;
+                gap: 10px;
+                i{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    >.copyright{
+        display: flex;
+        justify-content: center;
+        gap: 1.6rem;
+        margin-top: 3rem;
+        font-size: 1.18rem;
+        a{
+            text-transform: uppercase;
+        }
+        
+    }
+}

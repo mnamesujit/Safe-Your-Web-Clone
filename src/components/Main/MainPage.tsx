@@ -1,6 +1,7 @@
 import About from "../About/About"
 import CompanyInfo from "../CompanyInfo/CompanyInfo"
 import FAQ from "../FAQ/FAQ"
+import Footer from "../Footer/Footer"
 import IconSupportPage from "../IcoSupportPage/IconSupportPage"
 import OurPlans from "../OurPlans/OurPlans"
 import Services from "../Services/Services"
@@ -21,6 +22,7 @@ const MainPage = () => {
       <CompanyInfo />
       <FAQ />
       <OurPlans />
+      <Footer />
       </>
   )
 }
