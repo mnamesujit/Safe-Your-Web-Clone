@@ -1,0 +1,42 @@
+#our-plans{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto;
+    padding: 4.5em;
+    background-color: $main-1;
+
+
+    >.container{
+        margin: 0 auto;
+        border: 1px solid $main-dark-1;
+        padding: 1.6rem; 
+        color: $main-dark-1;
+        width: 275px;
+        height: fit-content;
+        background-color: $main-0;
+        >.title{
+            font-size: 1.7rem;
+            text-align: center;
+        }
+        >.description, .details{
+            margin: 12px 0;
+            font-size: 1.2rem;
+            line-height: 1.95rem;
+        }
+        >button{
+            color: $main-1;
+            background-color: $main-10;
+            width: 100%;
+            padding: 12px 0;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        &:nth-child(even){
+            position: relative;
+            top: -25px;
+        }
+    }
+}

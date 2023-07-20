@@ -99,5 +99,33 @@ const faqData = [
     },
 ]
 
+const plans = [
+    {
+        title: "Security Awareness Training",
+        description: "A fully interactive training on Web Vulnerability Assessments",
+        pricing: "$49/event",
+        details: "Security awareness training is education for individuals to understand and mitigate cyber threats to protect sensitive information and systems.",
+        button: "Join Now   "
+    },
+    {
+        title: "Web Development",
+        description: "We build robust web application with proper Security measure",
+        pricing: "price as per Consultant",
+        details: "Our web development service provides custom-designed websites and web applications that are user-friendly, visually appealing, and responsive to various devices."
+    },
+    {
+        title: "Vulnerability Assessments",
+        description: "Assessments on OWASP Top 10",
+        pricing: "$100/audit",
+        details: "Vulnerability assessment is a service that identifies and evaluates security vulnerabilities in systems and applications to improve security posture."
+    },
+    {
+        title: "Threat Detection",
+        description: "24/7 Monitoring on Web Server",
+        pricing: "$149/Month",
+        details: "Our 24/7 thread detection service continuously monitors systems for suspicious activities and alerts to prevent cyber attacks."
+    },
+]
+
 export default services;
-export { about, support,  stats, faqData };
+export { about, support,  stats, faqData, plans };
