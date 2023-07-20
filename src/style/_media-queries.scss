@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1025px) {
+   #about-page{
+      >.cards{
+        padding: 4rem 3rem;
+         img{
+        height: 500px;
+       }
+      }
+    }
+    #stats-page{
+        flex-direction: column;
+        flex-flow: column-reverse;
+        margin: auto;
+        >.stats-content{
+            width: 100%;
+            margin-top: 2.2rem;
+        }
+        >.image-container{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #company-info{
+        >.content{
+            flex-wrap: wrap;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #services-page{ 
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    #about-page{
+        >.cards{
+            flex-direction: column;
+            >img{
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+    #support-page{
+        >.support-cards{
+            >.card{
+                width: 100%;
+            }
+        }
+    }
+    #icon-support-page{
+        >.support-cards{
+            flex-wrap: wrap;
+            >.card{
+            img{
+                width: 60px;
+            }
+        }
+        }
+    }
+    #faq-page{
+        >.card{
+            flex-wrap: wrap;
+            row-gap: 2.2rem;
+        }
+    }
+    #our-plans{
+        flex-wrap: wrap;
+        >.container{
+            width: 100%;
+        }
+    }  
+}
+@media only screen and (max-width: 768px) {
+    #support-page{
+        >.support-cards{
+            padding: 2rem;
+        }
+    }
+    #footer-page{
+        margin: 0;
+        >.container{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+}

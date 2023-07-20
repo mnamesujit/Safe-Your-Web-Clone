@@ -8,8 +8,10 @@
     >.container{
         display: flex;
         margin: 0 4.5rem;
+        gap: 4rem;
         >.social{
-            width: 35%;
+            max-width: 300px;
+             width: 100%;
             >.logo{
                 display: flex;
                 align-items: center;
@@ -37,7 +39,8 @@
             }
         }
         >.company{
-            width: 30%;
+            max-width: 300px;
+             width: 100%;
             >h2{
                 margin-bottom: 1.5rem;
             }
@@ -48,7 +51,8 @@
             }
         }
         >.about{
-            width: 25%;
+            max-width: 300px;
+            width: 100%;
             h2{
                 margin-bottom: 1.5rem;
             }
