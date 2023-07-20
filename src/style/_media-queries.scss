@@ -86,10 +86,65 @@
         margin: 0;
         >.container{
             flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        >.copyright{
+            justify-content: flex-start;
+            padding: 0 4rem;
         }
     }
 }
 
 @media only screen and (max-width: 640px) {
-    
+    .navbar{
+        display: none;
+    }
+    .landing-page{
+        img{
+            height: 450px;
+        }
+        >.page-content{
+            h1{
+                font-size: 1.6rem;
+            }
+        }
+    }
+    #services-page{
+        padding: 1rem;
+        >.cards{
+            padding: 2rem 2rem;
+        }
+    }
+    #about-page{
+       >.cards{
+        padding: 1.4rem;
+       }
+    }
+     #support-page{
+        >.support-cards{
+           padding: 1rem;
+        }
+    }
+    #stats-page{
+        padding: 1rem;
+    }
+    #company-info{
+        padding: 1rem   ;
+    }
+    #faq-page{
+        padding: 1rem;
+    }
+    #our-plans{
+       padding: 1rem;
+    } 
+    #footer-page{
+        >.container{
+            gap: 2rem;
+        }
+        >.copyright{
+           display: block;
+           line-height: 2rem;
+           margin-left: 1rem;
+        }
+    }
 }
