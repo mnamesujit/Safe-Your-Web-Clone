@@ -7,7 +7,7 @@ const Support = () => {
         <div className="container">
           <p>All our IT support in one place</p>
           <h1>
-            We secure digital assets that will <br /> make your bussiness more
+            We secure digital assets that will make your bussiness more
             efficient
           </h1>
         </div>
