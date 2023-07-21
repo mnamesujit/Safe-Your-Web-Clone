@@ -161,15 +161,23 @@
        }
     }
      #support-page{
+        >.container{
+            padding: 0 2rem;
+            text-align: left;
+            >h1{
+                font-size: 1.7rem;
+            }
+        }
         >.support-cards{
            padding: 1rem;
         }
     }
     #stats-page{
         padding: 1rem;
+        margin: 0 1rem;
     }
     #company-info{
-        padding: 1rem   ;
+        padding: 1rem ;
     }
     #faq-page{
         padding: 1rem;
