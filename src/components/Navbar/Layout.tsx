@@ -123,7 +123,7 @@ const Layout = () => {
               >
                 Career
               </a>
-            </li>.
+            </li>
             <li>
               <a
                 href="#"
