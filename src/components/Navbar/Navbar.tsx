@@ -1,10 +1,12 @@
-import DesktopLayout from "./DesktopLayout";
+import Layout from "./Layout";
+
 const Navbar = () => {
+
   return (
     <div className="navbar">
-      <DesktopLayout />
+      <Layout />
     </div>
-  )
+  );
 }
 
 export default Navbar

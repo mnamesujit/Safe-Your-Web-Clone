@@ -5,7 +5,16 @@ import {
   BiLogoLinkedinSquare,
 } from "react-icons/bi";
 import { MdEmail, MdLocationOn } from "react-icons/md";
-const DesktopLayout = () => {
+import { HiMenuAlt4 } from "react-icons/hi";
+import { useState } from "react";
+
+const Layout = () => {
+  const [showMenu, setshowMenu] = useState<boolean>(false);
+
+  const toggle = () => {
+    setshowMenu(!showMenu);
+  };
+
   return (
     <div>
       {/* Communication Section inside Navbar  Starts here*/}
@@ -73,9 +82,73 @@ const DesktopLayout = () => {
             </li>
           </ul>
         </div>
+        <i
+          className="hamburgerMenu"
+          onClick={() => {
+            toggle();
+          }}
+        >
+          <HiMenuAlt4 />
+        </i>
+      </div>
+      <div className={showMenu ? "showdropDownMenu" : "hidedropDownMenu"}>
+        <div className="links">
+          <ul>
+            <li>
+              <a
+                href="#"
+                onClick={() => {
+                  toggle();
+                }}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={() => {
+                  toggle();
+                }}
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={() => {
+                  toggle();
+                }}
+              >
+                Career
+              </a>
+            </li>.
+            <li>
+              <a
+                href="#"
+                onClick={() => {
+                  toggle();
+                }}
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={() => {
+                  toggle();
+                }}
+              >
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
 };
 
-export default DesktopLayout;
+export default Layout;

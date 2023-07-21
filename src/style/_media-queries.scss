@@ -77,6 +77,25 @@
     }  
 }
 @media only screen and (max-width: 768px) {
+     .navbar{
+        .navigation{
+            padding: 0 1rem;
+            height: $navbar-height - 30px;
+            >.logo{
+                img{
+                    width: 30px;
+                }
+                h2{
+                    font-size: 1.25rem ;
+                }
+            }
+            >.links{
+                >ul{
+                    font-size: 0.95rem;
+                }
+            }
+        }
+    }
     #support-page{
         >.support-cards{
             padding: 2rem;
@@ -97,7 +116,28 @@
 
 @media only screen and (max-width: 640px) {
     .navbar{
-        display: none;
+        .social{
+            display: none;
+        }
+        .navigation{
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 5px;
+            align-items: flex-start;
+            >.logo{
+                img{
+                    width: 30px;
+                }
+                h2{
+                    font-size: 1.25rem ;
+                }
+            }
+            >.links{
+                >ul{
+                    font-size: 0.95rem;
+                }
+            }
+        }
     }
     .landing-page{
         img{
@@ -145,6 +185,23 @@
            display: block;
            line-height: 2rem;
            margin-left: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 516px) {
+    .navbar{
+        .navigation{
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            >.links{
+                display: none;
+            }
+            >i{
+                display: block;
+                font-size: 2rem;
+            }
         }
     }
 }
